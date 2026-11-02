@@ -24,5 +24,5 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-funcionPrincipal.o: funcionPrincipal.cpp
-	$(CPP) -c funcionPrincipal.cpp -o funcionPrincipal.o $(CXXFLAGS)
+funcionPrincipal.o: funcionPrincipal.c
+	$(CPP) -c funcionPrincipal.c -o funcionPrincipal.o $(CXXFLAGS)
